@@ -1,5 +1,6 @@
 import sqlite3
 
+# This function takes the table name and a comma separated list of words to populate
 def insert_words(table, words):
     """
     Insert a comma-separated list of words into a specified table.

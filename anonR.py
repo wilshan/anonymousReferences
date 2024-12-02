@@ -1,8 +1,6 @@
 import sqlite3
-import random
 import argparse
 import pyperclip
-import os
 
 # Configurable database name
 DATABASE_NAME = "anonymous_references.db"

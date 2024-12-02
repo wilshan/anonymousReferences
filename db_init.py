@@ -1,6 +1,6 @@
 import sqlite3
 
-# Create a new SQLite database
+# Create a new SQLite database and connect to it
 conn = sqlite3.connect("anonymous_references.db")
 cursor = conn.cursor()
 

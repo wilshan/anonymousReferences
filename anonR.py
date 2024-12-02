@@ -2,7 +2,7 @@ import sqlite3
 import argparse
 import pyperclip
 
-# Configurable database name
+# Configurable database name used in setup
 DATABASE_NAME = "anonymous_references.db"
 
 def get_connection():
